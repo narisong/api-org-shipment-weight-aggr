@@ -1,3 +1,8 @@
+# PLEASE NOTE
+
+1. To test the api for getting total weight, make a get request to `localhost:3000/totalWeight?unit=[YourUnit]`. Supported units are KILOGRAMS, OUNCES, and POUNDS. If you don't specify a unit, the default unit KILOGRAMS will be used. If you specify a unit that's not in the supported list, a 400 response will be returned.
+2. Please check comments in the code for optimizations and improvements we should consider if this is a real world api service.
+
 # Logixboard Backend Engineering Take-Home Challenge
 
 Thanks for applying to Logixboard! The next step in our process is a coding challenge. Our goals
